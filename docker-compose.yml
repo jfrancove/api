@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+ springboot:
+   image: back-api-bcp
+   restart: always
+   container_name: container-back-api-bcp
+   ports:
+     - 8080:8080
